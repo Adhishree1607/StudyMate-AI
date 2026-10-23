@@ -1,0 +1,47 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit settings
+.streamlit/secrets.toml
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+coverage/
+
+# Local application data
+studymate-data.json
+
+# Editor settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Log files
+*.log
+npm-debug.log*
+/studymate_data.json
